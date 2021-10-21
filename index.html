@@ -20,16 +20,26 @@
     <div class="container-lg px-4"><a class="navbar-brand" href=""> <img src="assets/img/logo-dark.png" alt=""
                                                                          width="180" height="60"> </a>
 
-        <a>
-            <div>Contact Us</div>
-        </a>
+        <div class="d-flex justify-content-around">
+            <div class="pt-1 pb-1 px-3 tab-text"><a style="color: #0075bd;" href="#">Home</a></div>
+
+            <div class=" pt-1 pb-1 px-3 tab-text"><a style="color: #0075bd;" href="#our-team">Team</a></div>
+
+            <div class="pt-1 pb-1 px-3 tab-text"><a href="" style="color: #0075bd;"
+            >Documentation</a></div>
+            <div class=" pt-1 pb-1 px-3 tab-text"><a style="color: #0075bd;" href="mailto:tll488@uowmail.edu.au"
+            >Contact</a></div>
+
+        </div>
+
+
     </div>
 
 
 </nav>
 <section class="slide clearfix position-relative overflow-hidden">
     <div class="slide-bg">
-        <img src="assets/img/sliderCopy.jpg" class="img-fluid" alt="" width="100%">
+        <img src="assets/img/background.png" class="img-fluid" alt="" width="100%">
     </div>
     <div class="slide-content">
         <div class="container-lg px-4">
@@ -43,16 +53,63 @@
 
             </div>
 
-            <div class="d-flex align-items-center flex-wrap mt-4">
-                <div class="slide-icon icon1"><img src="assets/img/slider1.png" alt=""></div>
-                <div class="slide-icon icon2"><img src="assets/img/slider2.png" alt=""></div>
-                <div class="slide-icon icon3"><img src="assets/img/slider3.png" alt=""></div>
-                <div class="slide-icon icon4"><img src="assets/img/slider4.png" alt=""></div>
-                <div class="slide-icon icon5"><img src="assets/img/slider5.png" alt=""></div>
+            <!--            <div class="d-flex align-items-center flex-wrap mt-4">-->
+            <!--                <div class="slide-icon icon1"><img src="assets/img/slider1.png" alt=""></div>-->
+            <!--                <div class="slide-icon icon2"><img src="assets/img/slider2.png" alt=""></div>-->
+            <!--                <div class="slide-icon icon3"><img src="assets/img/slider3.png" alt=""></div>-->
+            <!--                <div class="slide-icon icon4"><img src="assets/img/slider4.png" alt=""></div>-->
+            <!--                <div class="slide-icon icon5"><img src="assets/img/slider5.png" alt=""></div>-->
+            <!--            </div>-->
+        </div>
+    </div>
+</section>
+
+
+<section class="section targetmarket bg-light">
+    <div class="container-lg px-4">
+        <div class="text-center mb-5">
+            <h1 class="mb-3">Target Market //TODO: replace this by a better header</h1>
+            <p>//TODO: Can anyone help me add something here</p>
+        </div>
+        <div class="d-flex justify-content-around gx-10 gy-5">
+            <div class="col-6 gallery_image">
+
+                <div class="small d-flex justify-content-center ">
+                    <article class="recipe-2">
+                        <div class="pizza-box">
+                            <img src="assets/img/RadiationOncology.jpg"
+                                 alt="">
+                        </div>
+                        <div class="recipe-content">
+                            <h4 class="recipe-title"><a href="">Radiation Oncology</a></h4>
+
+
+                            <p class="recipe-desc mt-2">//TODO add something here as well.</p>
+
+                        </div>
+                    </article>
+                </div>
+            </div>
+            <div class="col-6 gallery_image">
+
+                <div class="small d-flex justify-content-center">
+                    <article class="recipe-2">
+                        <div class="pizza-box">
+                            <img src="assets/img/radiomics.jpg"
+                                 alt="">
+                        </div>
+                        <div class="recipe-content">
+                            <h4 class="recipe-title"><a href="">Radiomics Research</a></h4>
+                            <p class="recipe-desc mt-2">//TODO add something here as well.</p>
+
+                        </div>
+                    </article>
+                </div>
             </div>
         </div>
     </div>
 </section>
+
 
 <section class="section ourproject">
     <div class="flex-row justify-content-center" style="padding-right: 11.5rem!important;
@@ -71,11 +128,12 @@
                 </div>
                 <div class="recipe-content">
                     <p class="recipe-tags">
-                        <span class="recipe-tag">Oncology Research</span>
+                        <span class="recipe-tag">Oncology & Radiomics Research</span>
                     </p>
                     <h2 class="recipe-title mb-2">OnkoDICOM</h2>
 
-                    <p class="recipe-desc mb-2">Revolutionising the work of Radiation Oncologists.</p>
+                    <p class="recipe-desc mb-2">OnkoDICOM was created with Radiation Oncologists to allow Radiation
+                        Oncologists to do research on DICOM standard image sets</p>
                     <a href="https://github.com/didymo/OnkoDICOM" target="_blank">
                         <button class="recipe-save" type="button">
                             <i class="fab fa-github"> </i>
@@ -160,7 +218,7 @@
         </div>
     </div>
 </section>
-<section class="section team">
+<section class="section team" id="our-team">
     <div class="container-lg px-lg-5">
         <div class="text-center mb-5">
             <h1 class="mb-3">Meet Our Team</h1>
@@ -270,9 +328,69 @@
         </div>
 
     </div>
-
-
 </section>
+
+
+<section class="section technologies bg-light">
+    <div class="container-lg px-4">
+        <div class="text-center mb-5">
+            <h1 class="mb-3">Technologies</h1>
+            <p>MedICT utilizes latest technology trends in radiation oncology opensource software.</p>
+        </div>
+        <div class="row gx-10 gy-5">
+            <div class="col-lg-2 techicon">
+                <div class="gallery_image">
+                    <a href="https://vtk.org/" target="_blank">
+                        <img src="assets/img/vtk.png" alt=""
+                             style="max-height: fit-content;">
+                    </a>
+                </div>
+            </div>
+            <div class="col-lg-2 techicon">
+                <div class="gallery_image">
+                    <a href="https://matplotlib.org/" target="_blank">
+                        <img src="assets/img/matplotlib.png" alt=""
+                             style="max-height: fit-content;">
+                    </a>
+                </div>
+            </div>
+            <div class="col-lg-2 techicon">
+                <div class="gallery_image">
+                    <a href="https://pypi.org/project/PySide6/" target="_blank">
+                        <img src="assets/img/pyside6.png" alt=""
+                             style="max-height: fit-content;">
+                    </a>
+                </div>
+            </div>
+            <div class="col-lg-2 techicon">
+                <div class="gallery_image">
+                    <a href="https://pydicom.github.io/" target="_blank">
+                        <img src="assets/img/pydicom.png" alt=""
+                             style="max-height: fit-content;">
+                    </a>
+                </div>
+            </div>
+            <div class="col-lg-2 techicon">
+                <div class="gallery_image">
+                    <a href="https://numpy.org/" target="_blank">
+                        <img src="assets/img/numpy.png" alt=""
+                             style="max-height: fit-content;">
+                    </a>
+                </div>
+            </div>
+            <div class="col-lg-2 techicon">
+                <div class="gallery_image">
+                    <a href="https://www.dicompyler.com/" target="_blank">
+                        <img src="assets/img/dicompyler.png" alt=""
+                             style="max-height: fit-content;">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
 <footer class="footer bg-dark">
     <div class="container-lg px-4">
         <div class="text-white text-center p-4">

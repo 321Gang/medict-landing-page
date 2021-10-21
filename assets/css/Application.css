@@ -116,7 +116,6 @@ h6 {
     transform-origin: 50% 50%;
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
-    max-height: 260px;
     object-fit: cover;
     object-position: 100% 0
 }
@@ -152,7 +151,6 @@ h6 {
 
 /* End Gallery */
 
-
 .recipe,
 .pizza-box {
     display: flex;
@@ -181,7 +179,17 @@ h6 {
     border: 2px solid #F2F2F2;
     border-radius: 8px;
     overflow: hidden;
+
 }
+
+.recipe-2 {
+    border: 2px solid #F2F2F2;
+    border-radius: 8px;
+    overflow: hidden;
+    width: 50%;
+}
+
+
 
 .recipe-content {
     padding: 16px 32px;
@@ -249,33 +257,44 @@ h6 {
 .firstLine {
     animation: normal-display 0.3s;
     display: block;
+    color: white;
 }
+
 .secondLine {
     animation: normal-display 1.5s;
     display: block;
+    color: white;
+
 }
+
 .thirdLine {
     animation: normal-display 2s;
     display: block;
+    color: white;
+
 }
 
-.icon1{
+.icon1 {
     animation: scale-display 2.5s;
     display: block;
 }
-.icon2{
+
+.icon2 {
     animation: scale-display 2.5s;
     display: block;
 }
-.icon3{
+
+.icon3 {
     animation: scale-display 2.5s;
     display: block;
 }
-.icon4{
+
+.icon4 {
     animation: scale-display 2.5s;
     display: block;
 }
-.icon5{
+
+.icon5 {
     animation: scale-display 2.5s;
     display: block;
 }
@@ -301,4 +320,20 @@ h6 {
         transform: scale(1);
         -webkit-transform: scale(1);
     }
+}
+
+.tab-text {
+    text-decoration: none;
+    color: #0075bd;
+    font-weight: 510;
+
+}
+
+.tab-text:hover{
+    border-radius: 1px;
+}
+
+.techicon{
+    align-items: center;
+    display: flex;
 }
