@@ -246,4 +246,59 @@ h6 {
     font-weight: bold;
 }
 
+.firstLine {
+    animation: normal-display 0.3s;
+    display: block;
+}
+.secondLine {
+    animation: normal-display 1.5s;
+    display: block;
+}
+.thirdLine {
+    animation: normal-display 2s;
+    display: block;
+}
 
+.icon1{
+    animation: scale-display 2.5s;
+    display: block;
+}
+.icon2{
+    animation: scale-display 2.5s;
+    display: block;
+}
+.icon3{
+    animation: scale-display 2.5s;
+    display: block;
+}
+.icon4{
+    animation: scale-display 2.5s;
+    display: block;
+}
+.icon5{
+    animation: scale-display 2.5s;
+    display: block;
+}
+
+@keyframes normal-display {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+
+@keyframes scale-display {
+    0% {
+        opacity: 0;
+        transform: scale(0);
+        -webkit-transform: scale(0);
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1);
+        -webkit-transform: scale(1);
+    }
+}
