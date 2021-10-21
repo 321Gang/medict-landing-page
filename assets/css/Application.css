@@ -153,9 +153,6 @@ h6 {
 /* End Gallery */
 
 
-
-
-
 .recipe,
 .pizza-box {
     display: flex;
@@ -168,6 +165,7 @@ h6 {
     height: calc(282px + 5vw);
     overflow: hidden;
 }
+
 .pizza-box img {
     max-width: 100%;
     min-height: 100%;
@@ -184,13 +182,16 @@ h6 {
     border-radius: 8px;
     overflow: hidden;
 }
+
 .recipe-content {
     padding: 16px 32px;
     flex: 4 1 40ch;
 }
+
 .recipe-tags {
     margin: 0 -8px;
 }
+
 .recipe-tag {
     display: inline-block;
     margin: 8px;
@@ -200,14 +201,17 @@ h6 {
     letter-spacing: 0.02em;
     color: #774eac;
 }
+
 .recipe-title {
     margin: 0;
     font-family: "Roboto Slab", Helvetica, Arial, sans-serif;
 }
+
 .recipe-title a {
     text-decoration: none;
     color: inherit;
 }
+
 .recipe-metadata {
     margin: 0;
 }
@@ -237,6 +241,9 @@ h6 {
 .big {
 }
 
-
+.team-position {
+    color: #774eac;
+    font-weight: bold;
+}
 
 
