@@ -24,7 +24,7 @@ Clone this project using `git clone` and open the `index.html` file.
 
 ### Deployment
 
-Connect this repository to [Digital Ocean App Service](https://www.digitalocean.com/), this service recognizes that this repository is a static webpage project, then it automatically deploys `index.html` as the starting page. The page is now available at `https://medict-landing-page-3avds.ondigitalocean.app/`
+Connect the master branch of this repository to [Digital Ocean App Service](https://www.digitalocean.com/). This service recognizes that this is a static webpage project, so it will automatically deploy `index.html` as the starting page. The page is then available at `https://medict-landing-page-3avds.ondigitalocean.app/`
 
 Purchase a domain, in this case [medict.software](medict.software). Add `https://medict-landing-page-3avds.ondigitalocean.app/` as an `ALIAS` to DNS records of `medict.software`. Upon every commit pushed to master, the deployment will be triggered and changes will be reflected on `medict.software` in a few seconds.
 
